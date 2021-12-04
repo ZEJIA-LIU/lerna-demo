@@ -1,6 +1,6 @@
 {
-  "name": "@zejia/root",
-  "private": false,
+  "name": "root",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],

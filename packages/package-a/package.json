@@ -20,5 +20,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "a47d6edecd77c8970b66183133cac043e7e66043"
+  "gitHead": "a47d6edecd77c8970b66183133cac043e7e66043",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }

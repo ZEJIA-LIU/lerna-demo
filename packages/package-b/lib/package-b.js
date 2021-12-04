@@ -1,8 +1,11 @@
-'use strict';
+import { add } from "../../package-a/lib/package-a";
 
-module.exports = packageB;
+import React from 'react'
 
-function packageB() {
-
-    // TODO
+function b() {
+    console.log('add', add)
+    console.log(React, 'react')
+    return add(1, 2)
 }
+
+export { b }
