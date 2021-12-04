@@ -1,8 +1,8 @@
 {
-  "name": "package-a",
-  "version": "0.0.1",
+  "name": "@zejia/package-a",
+  "version": "0.0.2",
   "description": "> TODO: description",
-  "author": "liuzejia <liuzejia@jd.com>",
+  "author": "liuzejia",
   "homepage": "",
   "license": "ISC",
   "main": "lib/package-a.js",
@@ -18,5 +18,6 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "5ff63d729dc8c8a9c1c4584f8d291086db8a6511"
 }

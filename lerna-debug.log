@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/usr/local/bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/liuzejia/work/lerna
+3 error Error: Invalid package name "zejia/package-a": name can only contain URL-friendly characters
+3 error     at invalidPackageName (/Users/liuzejia/.config/yarn/global/node_modules/npm-package-arg/npa.js:89:15)
+3 error     at Result.setName (/Users/liuzejia/.config/yarn/global/node_modules/npm-package-arg/npa.js:124:11)
+3 error     at new Result (/Users/liuzejia/.config/yarn/global/node_modules/npm-package-arg/npa.js:114:23)
+3 error     at Function.resolve (/Users/liuzejia/.config/yarn/global/node_modules/npm-package-arg/npa.js:61:15)
+3 error     at new Package (/Users/liuzejia/.config/yarn/global/node_modules/@lerna/package/index.js:95:26)
+3 error     at /Users/liuzejia/.config/yarn/global/node_modules/@lerna/project/index.js:207:26
