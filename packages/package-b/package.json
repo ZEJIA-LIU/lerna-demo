@@ -1,0 +1,29 @@
+{
+  "name": "package-b",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "liuzejia <liuzejia@jd.com>",
+  "homepage": "https://github.com/ZEJIA-LIU/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/package-b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZEJIA-LIU/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ZEJIA-LIU/lerna-demo/issues"
+  }
+}
