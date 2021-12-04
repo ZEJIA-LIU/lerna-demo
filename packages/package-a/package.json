@@ -1,5 +1,5 @@
 {
-  "name": "@zejia-liu/package-a",
+  "name": "zejia-liu-package-a",
   "version": "0.0.9",
   "description": "> TODO: description",
   "author": "liuzejia",
@@ -20,5 +20,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "f2fe6af5ca3a370cf1bfa96c4d8fa0fca8a61ae3"
+  "gitHead": "a47d6edecd77c8970b66183133cac043e7e66043"
 }
