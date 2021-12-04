@@ -1,7 +1,8 @@
 'use strict';
 
-module.exports = packageA;
-
-function packageA() {
-    // TODO
+module.exports = {
+    add: function (a, b) {
+        console.log('version1')
+        return a + b
+    }
 }
